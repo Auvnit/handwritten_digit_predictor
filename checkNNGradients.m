@@ -1,13 +1,4 @@
 function checkNNGradients(lambda)
-%CHECKNNGRADIENTS Creates a small neural network to check the
-%backpropagation gradients
-%   CHECKNNGRADIENTS(lambda) Creates a small neural network to check the
-%   backpropagation gradients, it will output the analytical gradients
-%   produced by your backprop code and the numerical gradients (computed
-%   using computeNumericalGradient). These two gradient computations should
-%   result in very similar values.
-%
-
 if ~exist('lambda', 'var') || isempty(lambda)
     lambda = 0;
 end
